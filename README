@@ -1,3 +1,3 @@
 #!/bin/bash
-export AMO='https://addons.mozilla.org/firefox/addon/visit-counter' 
+export AMO='https://addons.mozilla.org/firefox/addon/visits-counter' 
 curl 'https://raw.githubusercontent.com/igorlogius/meta-addon-builder/main/README' | sh
