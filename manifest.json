@@ -9,12 +9,12 @@
   "icons": {
       "128": "icon.png"
   },
-  "description": "shows the pageAction icon if the website you are visiting has not been visited before",
+  "description": "shows visited count of websites",
   "manifest_version": 2,
   "name": "first-visit-indicator",
   "permissions": [
     "history",
     "tabs"
   ],
-  "version": "1.0.2"
+  "version": "1.1.2"
 }
