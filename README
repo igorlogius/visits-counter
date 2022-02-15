@@ -1,4 +1,3 @@
 #!/bin/bash
-export AMO='https://addons.mozilla.org/firefox/addon/automate-click' 
-export IGN='*/example_config.json */LICENSE'
+export AMO='https://addons.mozilla.org/firefox/addon/first-visit-indicator' 
 curl 'https://raw.githubusercontent.com/igorlogius/meta-addon-builder/main/README' | sh
