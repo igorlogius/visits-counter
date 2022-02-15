@@ -1,0 +1,21 @@
+{
+  "author": "igorlogius",
+  "page_action": {
+    "browser_style": true,
+    "default_icon": "icon.png"
+  },
+  "background": {
+	"scripts": ["background.js"]
+  },
+  "icons": {
+      "128": "icon.png"
+  },
+  "description": "",
+  "manifest_version": 2,
+  "name": "first-visit-indicator",
+  "permissions": [
+    "history",
+    "webNavigation"
+  ],
+  "version": "1.0.0"
+}
