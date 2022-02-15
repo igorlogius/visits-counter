@@ -9,12 +9,12 @@
   "icons": {
       "128": "icon.png"
   },
-  "description": "shows visited count of websites",
+  "description": "shows visit count of websites",
   "manifest_version": 2,
-  "name": "first-visit-indicator",
+  "name": "visits-counter",
   "permissions": [
     "history",
     "tabs"
   ],
-  "version": "1.2.0"
+  "version": "1.2.1"
 }
