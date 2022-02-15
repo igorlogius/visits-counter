@@ -1,8 +1,7 @@
 {
   "author": "igorlogius",
-  "page_action": {
-    "browser_style": true,
-    "default_icon": "icon.png"
+  "browser_action": {
+    "browser_style": true
   },
   "background": {
 	"scripts": ["background.js"]
@@ -10,12 +9,12 @@
   "icons": {
       "128": "icon.png"
   },
-  "description": "",
+  "description": "shows the pageAction icon if the website you are visiting has not been visited before",
   "manifest_version": 2,
   "name": "first-visit-indicator",
   "permissions": [
     "history",
-    "webNavigation"
+    "tabs"
   ],
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
