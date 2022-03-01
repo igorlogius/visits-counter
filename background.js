@@ -66,12 +66,18 @@ async function handleUpdated(tabId, changeInfo, tabInfo) {
                 permissions: ["notifications" ]
             };
             if (await browser.permissions.contains(notify_permissions)) {
-                browser.notifications.create(extname, {
+                const nID = await browser.notifications.create(extname, {
                     "type": "basic",
                     "iconUrl": browser.runtime.getURL("icon.png"),
                     "title": notify_title,
                     "message":  notify_message
                 });
+
+                // wait 5 Seconds to clear the notification
+                setTimeout(() => {
+                     browser.notifications.clear(nID);
+                },5*1000);
+
             }
 
 
